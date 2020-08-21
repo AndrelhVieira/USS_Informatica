@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
-    background-color: #9cd8e2;
+    background-color: whitesmoke;
 }
 nav{
     background-color: #9cd8e2;
@@ -12,7 +15,7 @@ nav{
     background: url(../img/fundo.jpg);
     background-size: cover;
     background-position: center;
-    height: 550px;
+    height: 700px;
     width: 100%;
 }
 #text-inicio{
@@ -35,6 +38,10 @@ nav{
     padding: 10px 30px;
     margin: 10px 0px;
 }
+#servicos{
+    box-shadow: 1px 1px 10px black;
+    background-color: #9cd8e2;
+}
 .servico:hover{
     box-shadow: 1px 1px 10px black;
     transition-duration: 0.5s;
@@ -48,6 +55,7 @@ nav{
 }
 #mais_servicos{
     padding: 25px;
-    box-shadow: 1px 1px 10px black;
-    background-color: whitesmoke;
+}
+footer{
+    background-color: #9cd8e2;
 }
