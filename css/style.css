@@ -11,6 +11,9 @@ body{
 nav{
     background-color: #9cd8e2;
 }
+nav li{
+    margin: 0px 5px;
+}
 #img_fundo_inicio{
     background: url(../img/fundo.jpg);
     background-size: cover;
@@ -55,6 +58,24 @@ nav{
 }
 #mais_servicos{
     padding: 25px;
+}
+#btn_mais{
+    background-color: #9cd8e2;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+}
+#btn_mais:hover{
+    background-color: #81b1b9;
+    transition-duration: 0.5s;
+}
+a:link{
+    text-decoration: none;
+    outline: none;
 }
 footer{
     background-color: #9cd8e2;

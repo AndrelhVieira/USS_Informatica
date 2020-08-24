@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: whitesmoke;
+}
+nav{
+    background-color: #9cd8e2;
+}
+footer{
+    background-color: #9cd8e2;
+}
+.subtitle{
+    text-align: center;
+}
+#btn_mais{
+    background-color: #9cd8e2;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+}
+#btn_mais:hover{
+    background-color: #81b1b9;
+    transition-duration: 0.5s;
+}
+a:link{
+    text-decoration: none;
+    outline: none;
+}
+nav li{
+    margin: 0px 5px;
+}
