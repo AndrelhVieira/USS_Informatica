@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url(../fonts/Roboto-Regular.woff);
+}
+
+@font-face {
+    font-family: "tommy";
+    src: url(../fonts/MADETOMMY.woff);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #9cd8e2;
+}
+
+nav {
+    background-color: #9cd8e2;
+}
+
+.subtitle {
+    text-align: center;
+    font-family: "tommy";
+    font-size: 50px;
+}
+
+a:link {
+    text-decoration: none;
+    outline: none;
+}
+
+nav li {
+    margin: 0px 5px;
+}
+
+#text_quem_somos{
+    text-align: justify;
+    margin: 25px;
+}
