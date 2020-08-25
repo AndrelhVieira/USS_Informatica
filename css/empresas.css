@@ -1,23 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-html{
+
+@font-face {
+    font-family: "tommy";
+    src: url(../fonts/MADETOMMY.woff);
+}
+
+html {
     scroll-behavior: smooth;
 }
-body{
-    background-color: whitesmoke;
-}
-nav{
+
+body {
     background-color: #9cd8e2;
 }
-footer{
+
+nav {
     background-color: #9cd8e2;
 }
-.subtitle{
+
+.subtitle {
     text-align: center;
+    font-family: "tommy";
+    font-size: 50px;
 }
-#btn_mais{
+
+#btn_mais {
     background-color: #9cd8e2;
     color: black;
     text-align: center;
@@ -26,15 +35,36 @@ footer{
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 5px;
+    font-size: 20px;
 }
-#btn_mais:hover{
+
+#btn_mais:hover {
     background-color: #81b1b9;
     transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
 }
-a:link{
+
+a:link {
     text-decoration: none;
     outline: none;
 }
-nav li{
+
+nav li {
     margin: 0px 5px;
+}
+
+/* Formatação Condicional baseado na mudança do tamanho da tela */
+
+@media screen and (max-width: 520px) {
+    .subtitle {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .subtitle {
+        font-size: 25px;
+    }
 }

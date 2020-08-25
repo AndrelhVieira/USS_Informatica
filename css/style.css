@@ -1,65 +1,91 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-html{
+
+@font-face{
+    font-family: "tommy";
+    src: url(../fonts/MADETOMMY.woff);
+}
+
+@font-face{
+    font-family: "roboto";
+    src: url(../fonts/Roboto-Regular.woff);
+}
+
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     background-color: whitesmoke;
 }
-nav{
+
+nav {
     background-color: #9cd8e2;
 }
-nav li{
+
+nav li {
     margin: 0px 5px;
 }
-#img_fundo_inicio{
+
+#img_fundo_inicio {
     background: url(../img/fundo.jpg);
     background-size: cover;
     background-position: center;
     height: 700px;
     width: 100%;
 }
-#text-inicio{
+
+#logo-inicio {
     color: whitesmoke;
     text-align: center;
     position: relative;
-    top: 50%;
+    top: 30%;
 }
-.subtitle{
+
+.subtitle {
     text-align: center;
+    font-family: "tommy";
 }
-.fas, .fab{
+
+.fas, .fab {
     font-size: 75px;
 }
-.txt_servicos{
-    text-align: justify;
+
+.txt_servicos {
+    text-align: center;
     margin-top: 25px;
 }
-.servico{
+
+.servico {
     padding: 10px 30px;
     margin: 10px 0px;
 }
-#servicos{
+
+#servicos {
     box-shadow: 1px 1px 10px black;
     background-color: #9cd8e2;
 }
-.servico:hover{
+
+.servico:hover {
     box-shadow: 1px 1px 10px black;
     transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
     -webkit-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
 }
-.image-servico{
+
+.image-servico {
     width: 250px;
     border-radius: 50%;
 }
-#mais_servicos{
+
+#mais_servicos {
     padding: 25px;
 }
-#btn_mais{
+
+#btn_mais {
     background-color: #9cd8e2;
     color: black;
     text-align: center;
@@ -69,14 +95,35 @@ nav li{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 5px;
 }
-#btn_mais:hover{
+
+#btn_mais:hover {
     background-color: #81b1b9;
     transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
 }
-a:link{
+
+a:link {
     text-decoration: none;
     outline: none;
 }
-footer{
+
+footer {
     background-color: #9cd8e2;
+}
+
+.text-servicos {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: "roboto";
+}
+
+/* Formatação Condicional baseado na mudança do tamanho da tela */
+
+@media screen and (max-width: 992px) {
+    .text-servicos {
+        font-size: 20px;
+    }
 }
